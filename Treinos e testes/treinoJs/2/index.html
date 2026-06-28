@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> 1 2 3 TESTANDO</title>
+    </head>
+
+    <body>
+        <h1> Validação simples papai</h1>
+
+    <form id = "myform">
+        <label>Nome:</label>
+        <input type="text" id = "nome" placeholder="Digite seu nome">
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id = "resultado"></p>
+
+    <script>
+        document.getElementById("myform").addEventListener("submit", function(a){
+            document.getElementById("resultado").innerText = "Erro";
+        })
+    </script>
+    </body>
+</html>
